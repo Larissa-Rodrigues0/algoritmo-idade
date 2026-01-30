@@ -15,3 +15,5 @@ elif resul < 39.9:
 else:
     print(f"O resultado do calculo foi {resul:.2f}\nPortanto sua classificação é Obesidade Grave")
  
+
+ 
