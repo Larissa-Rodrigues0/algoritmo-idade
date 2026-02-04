@@ -24,6 +24,7 @@ Testar diferentes entradas para verificar todas as respostas.
 Enviar o link do repositório com o Código
 
 '''
+import os
 
 print('''
       Opções do menu:
@@ -33,7 +34,6 @@ print('''
         [3] Cancelar serviço
         [4] Informações sobre planos
         [5] Sair
-      
       ''')
 
 menu = int(input("Qual sua opção desejada: "))
@@ -41,13 +41,18 @@ menu = int(input("Qual sua opção desejada: "))
 match menu:
     case 1:
         print("Aguarde o atendente...")
+        os.system('pause')
     case 2:
         print("Imprimindo a segunda via do boleto...")
+        os.system('pause')
     case 3:
         print("Cancelando serviço...")
+        os.system('pause')
     case 4:
         print("Apresentando informações...")
+        os.system('pause')
     case _:
         print("Opção invalida")
+        os.system('pause')
         
         
