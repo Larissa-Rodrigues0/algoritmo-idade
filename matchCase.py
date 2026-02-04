@@ -37,6 +37,8 @@ print('''
       ''')
 
 menu = int(input("Qual sua opção desejada: "))
+if menu == 5:
+    print('Saindo do sistema...')
 
 match menu:
     case 1:
@@ -54,5 +56,6 @@ match menu:
     case _:
         print("Opção invalida")
         os.system('pause')
+        
         
         
